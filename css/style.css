@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('/img/pattern-background-desktop.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container-centro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 350px;
+}
+
+img {
+    max-width: 100%;
+    margin: 0px;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 30px;
+    background: hsl(225, 100%, 98%);
+    height: auto;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 70px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+}
+
+.card-conteudo p {
+    font-weight: 500;
+}
+.texto-primario {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plano {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    background: hsl(225, 100%, 96%);;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.plano a:hover {
+    text-decoration: none;
+}
+
+.plano-contrato {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   
+}
+.plano-tipo {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.plano-valor {
+    color: hsl(224, 23%, 55%);
+}
+.plano-year p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    text-align: center;
+    background: hsl(245, 75%, 52%);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 1px 13px 30px 5px rgba(55, 42, 218, 0.2);
+}
+
+.btn:hover {
+    background: hsl(224, 93%, 62%);
+}
+
+.btn-2 {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-2:hover {
+    color: rgb(36, 36, 36);
+}
+
+footer {
+    padding: 0px;
+    margin-top: 5vh;
+    text-align: center;
+}
